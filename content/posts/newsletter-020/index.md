@@ -309,33 +309,6 @@ _Discussions: [Discord][hh_disc], [Twitter][bmb_twitter]_
 [nano-ogmo]: https://github.com/Bombfuse/nano-ogmo
 [gag_demo]: https://bombfuse.itch.io/him-character-demo-harvest-hero
 
-### [Station Iapetus]
-
-[![Station Iapetus Youtube](station-iapetus-youtube.png)][si-youtube]
-_Check [gameplay video][si-youtube] on YouTube_
-
-[Station Iapetus][Station Iapetus] by [@mrDIMAS] is a 3rd person shooter on the
-prison Iapetus near the Saturn.
-
-- Inventory fixes and improvements
-- Splash damage for grenades
-- Weapon recoil
-- More items
-- Bots now hear player
-- More assets
-- First level improvements
-- Procedural animation of impact for bots
-- More sounds
-- Separate scene for menu with music
-- Pause game when in menu
-- More switches in options menu
-- Turrets
-
-[@mrDIMAS]: https://github.com/mrDIMAS
-[rg3d]: https://github.com/mrDIMAS/rg3d
-[Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
-[si-youtube]: https://www.youtube.com/watch?v=O_ETjSkVBME
-
 ### [Aladin Lite]
 
 ![Mars with a RdBu colormap](aladin_lite_mars_RdBu_cm.gif)
@@ -464,45 +437,6 @@ New Updates:
 [em_wasm_example]: https://bombfuse.itch.io/him-character-demo-harvest-hero
 [hecs_git]: https://github.com/Ralith/hecs
 [fontdue_git]: https://github.com/mooman219/fontdue
-
-### [rg3d]
-
-![rg3d Youtube](rg3d_logo.png)
-
-[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter]) is a game engine that
-aims to be easy to use and provide a large set of out-of-box features. Some of
-the recent updates:
-
-- Context menus and tooltips (huge thanks to [MinusGix])
-- Performance improvements for UI
-- Parallax Mapping
-- Ability to enable/disable scenes
-- Expansion strategies for TreeView
-- LOD system fixes
-- Graphical fixes
-- First version of engine's architecture overview
-- Various bug fixes and small improvements
-
-[Editor][rusty-editor] updates:
-
-- Ability to edit collision groups and mask for colliders
-- Ability to clear command stack
-- Ability to change render path for meshes
-- LOD editor
-- "Collapse All", "Expand All", "Locate Selection" buttons for world outliner
-- "Fit Collider" feature fixes
-- Picking fixes
-- Change selection when paste from clipboard
-- "Slow" and "Fast" camera movement modifiers
-- Navmesh selection fixes
-- Simple TBN visualizer
-- Parallax mapping switch in settings
-
-[rg3d]: https://github.com/mrDIMAS/rg3d
-[rg3d_discord]: https://discord.gg/xENF5Uh
-[rg3d_twitter]: https://twitter.com/DmitryNStepanov
-[rusty-editor]: https://github.com/mrDIMAS/rusty-editor
-[MinusGix]: https://github.com/MinusGix
 
 ## Learning Material Updates
 
@@ -696,6 +630,21 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/m
 [WGSL]: https://gpuweb.github.io/gpuweb/wgsl/
 [@wumpf]: https://github.com/Wumpf
 [graphics team blog]: https://mozillagfx.wordpress.com/2021/03/10/webgpu-progress/
+
+### [smaa-rs]
+
+The [smaa-rs] library provides fast and high quality post-process
+anti-aliaising using the [SMAA algorithm]. It is designed to be
+easy to integrate into other [wgpu] applications with only a few
+added lines of code.
+
+The 0.2 series released this month includes a steamlined API
+which makes it easier to enable/disable anti-aliasing via a
+configuration setting. Currently SMAA 1x is supported with 
+SMAA S2x likely to be added depending on interest.
+
+[smaa-rs]: https://github.com/fintelia/smaa-rs
+[SMAA algorithm]: http://www.iryoku.com/smaa/
 
 ### [rafx]
 
